@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.trans{
+  background: rgba(255,255,255,.5);
+  box-shadow: 0 5px 15px rgba(0,0,0,.7);
+}
+
+.node__root > circle {
+  fill: #038CCF;
+  border: none;
+  outline: none;
+}
+
+.node__branch > circle {
+  /* fill: yellow; */
+}
+
+.node__leaf > circle {
+  fill: #333;
+  /* Let's also make the radius of leaf nodes larger */
+  r: 20;
+}

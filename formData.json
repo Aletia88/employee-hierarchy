@@ -1,0 +1,19 @@
+{
+  "positions": [
+    {
+      "name": "CEO",
+      "parentId": null,
+      "id": "1"
+    },
+    {
+      "name": "",
+      "parentId": "1",
+      "id": "5"
+    },
+    {
+      "id": "2",
+      "name": "CTO",
+      "parentId": "1"
+    }
+  ]
+}
